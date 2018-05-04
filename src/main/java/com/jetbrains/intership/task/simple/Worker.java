@@ -1,4 +1,4 @@
-package com.jetbrains.intership.task;
+package com.jetbrains.intership.task.simple;
 
 import java.util.concurrent.LinkedBlockingQueue;
 

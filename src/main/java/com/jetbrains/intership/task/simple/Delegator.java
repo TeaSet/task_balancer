@@ -1,4 +1,4 @@
-package com.jetbrains.intership.task;
+package com.jetbrains.intership.task.simple;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadLocalRandom;
@@ -49,7 +49,7 @@ public class Delegator implements Runnable {
     }
 
     private void generateNumbers() throws InterruptedException {
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 100; i++) {
             mainQueue.put(ThreadLocalRandom.current().nextInt(100));
         }
     }
